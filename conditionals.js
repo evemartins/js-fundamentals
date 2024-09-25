@@ -52,3 +52,16 @@ meuObjeto();
 // Se o nome nao for um dos 3, mostra a mensagem: Não é a minha família
 
 // entrada: Heitor | Saída: Sua idade é de 1 ano e 7 meses
+
+function minhaFamilia(familia) {
+    if (familia === "Theodoro") {
+        console.log("sua idade é 4 anos");
+    } else if (familia === "Heitor") {
+        console.log("sua idade é 1 ano e 7 meses");
+    } else if (familia === "Edu") {
+        console.log("sua idade é 29 anos");
+    } else {
+        console.log("não é minha família");
+    }
+}
+minhaFamilia("Lucca");
