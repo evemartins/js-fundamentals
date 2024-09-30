@@ -5,14 +5,14 @@ function mostraValoresPares() {
     for (let i = 0; i < 100; i = i + 1) {
         //console.log("esse é o i", i);
 
-        setTimeout(() => {
-            const numeroAtual = numeros[i];
+        // setTimeout(() => {
+        const numeroAtual = numeros[i];
 
-            // Se for par, fala q é par
-            if (numeroAtual % 2 === 0) {
-                console.log("Ele é um numero par", numeroAtual);
-            }
-        }, 1000);
+        // Se for par, fala q é par
+        if (numeroAtual % 2 === 0) {
+            console.log("Ele é um numero par", numeroAtual);
+        }
+        // }, 1000);
     }
 }
 
